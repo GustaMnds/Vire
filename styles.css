@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+}
+
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+div{
+   width: 100%;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+img{
+   width: 100%;
+   position: fixed;
+}
+
+.mamaco{
+   width: 100%;
+   z-index: -1;
+   opacity: 0;
+}
+
+@media (min-width: 780px){
+   img{
+     opacity: 0;
+   }
+   
+   .mamaco{
+     opacity: 100%;
+     width: 40%;
+   }
+}
