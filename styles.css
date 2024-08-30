@@ -7,7 +7,6 @@ body{
    height: 100vh;
    display: flex;
    justify-content: center;
-   align-items: center;
 }
 
 div{
@@ -15,7 +14,8 @@ div{
    padding: 0;
    display: flex;
    justify-content: center;
-   align-items: center;
+   position: relative;
+   margin-top: 30px;
 }
 
 img{
@@ -29,14 +29,14 @@ img{
    opacity: 0;
 }
 
-@media (min-width: 480px){
+@media(max-width: 600){
    img{
      opacity: 0;
    }
    
    .mamaco{
      opacity: 100%;
-     width: 40%;
+     width: 30%;
    }
 }
 
@@ -47,6 +47,6 @@ img{
    
    .mamaco{
      opacity: 100%;
-     width: 40%;
+     width: 30%;
    }
 }
