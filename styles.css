@@ -29,6 +29,17 @@ img{
    opacity: 0;
 }
 
+@media (min-width: 368px) and (max-width: 450px){
+   img{
+     opacity: 0;
+   }
+   
+   .mamaco{
+     opacity: 100%;
+     width: 40%;
+   }
+}
+
 @media (min-width: 780px){
    img{
      opacity: 0;
