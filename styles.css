@@ -29,7 +29,7 @@ img{
    opacity: 0;
 }
 
-@media(max-width: 600){
+@media(max-width: 600px){
    img{
      opacity: 0;
    }
